@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.form-area{
+    width: 75vw;
+    margin: 10%;
+    border: 2px solid black;
+    padding: 5%;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sub-res-btn{
+    margin-top: 2rem;
+    text-align: center;
+}
