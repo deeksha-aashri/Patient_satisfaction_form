@@ -1,20 +1,52 @@
+/* The Stylesheet */
+
 *{
     box-sizing: border-box;
     margin: 0;
 }
 
-.form-area{
-    width: 75vw;
-    margin: 10%;
-    border: 2px solid black;
-    padding: 5%;
+body{
+    width: 50vw;
+    border: 2px black solid;
+    margin: 2rem;
+    padding: 2rem;
+    margin-left: 25%;
+    margin-right: 15%;
 }
-.radio{
+
+h1{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0.5rem ;
+    margin-bottom: 0.5rem;
+    line-height: 1rem;  
+}
+
+form>.radio>input{
     display: flex;
     flex-direction: row;
+}
+
+span{
     justify-content: space-around;
 }
-.sub-res-btn{
-    margin-top: 2rem;
-    text-align: center;
+
+.btn{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
 }
+
+.btn>input{
+height: 2rem;
+width: 10vw;
+background-color: aliceblue;
+}
+
